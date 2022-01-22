@@ -10,9 +10,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://:3306/security?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://172.26.57.123:3306/security?serverTimezone=Asia/Seoul
     username: wlgnsl132
-    password: 
+    password: Phpkpk1!
 
   jpa:
     hibernate:
