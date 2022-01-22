@@ -9,4 +9,6 @@ else
    kill -9 $CURRENT_PID;
    sleep10;
 fi
+
+# 안녕하세요 반갑습니다.!!!
 echo "Deploy Project...." nohup java -jar /home/serve/timespace/spacetime/spacetime-0.0.1-SNAPSHOT.jar >> /home/serve/timespace/spacetime/spacetime.log & echo "Done"
